@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+html, body, nav, header, section, footer {
     width: 100%;
 }
 
@@ -24,4 +24,34 @@ h1 {
 h2 {
     font-size: 1.75rem;
     font-weight: 600;
+}
+
+/* Navbar styles */
+nav {
+    height: 3rem;
+    background-color: #b1a296;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    margin: 1%;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
