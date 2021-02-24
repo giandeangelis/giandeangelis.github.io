@@ -27,11 +27,15 @@ h2 {
 }
 
 /* Navbar styles */
+
 nav {
     height: 3rem;
     background-color: #b1a296;
     color: #fff;
     font-weight: 600;
+    position: fixed;
+    top: 0;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,4 +58,11 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+    padding: 8% 0 5% 5%;
+    background-color: hsla(27, 15%, 64%, 0.2);
 }
