@@ -66,3 +66,38 @@ header {
     padding: 8% 0 5% 5%;
     background-color: hsla(27, 15%, 64%, 0.2);
 }
+
+/* About section */
+
+#about {
+    position: relative;
+    background-color: #938e94;
+}
+
+#about .content {
+    display: flex;
+}
+
+#about img {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+}
+
+#about article {
+    width: 60%;
+}
+
+#about .section-title {
+    width: 20%;
+    height: 100%;
+    padding-bottom: 20%;
+    position: relative;
+    background: linear-gradient(45deg, rgba(255,255,255,0) 50%, rgba(93,92,97,1) 50%);
+}
+
+#about h2 {
+    position: absolute;
+    right: 0;
+    padding: 0.5rem;
+}
