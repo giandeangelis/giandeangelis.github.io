@@ -12,7 +12,7 @@ html {
     font-size: 16px;
 }
 
-h2, p, a, li, img {
+h2, h3, p, a, li, img {
     font-family: 'Montserrat', 'Verdana', sans-serif;
 }
 
@@ -24,6 +24,10 @@ h1 {
 h2 {
     font-size: 1.75rem;
     font-weight: 600;
+}
+
+h3 {
+    font-size: 1.25rem;
 }
 
 /* Navbar styles */
@@ -63,6 +67,7 @@ nav a:hover {
 /* Header styles */
 
 header {
+    width: 100%;
     padding: 8% 0 5% 5%;
     background-color: hsla(27, 15%, 64%, 0.2);
 }
@@ -70,6 +75,7 @@ header {
 /* About section */
 
 #about {
+    width: 100%;
     background-color: #938e94;
 }
 
@@ -105,6 +111,7 @@ header {
 /* Projects section */
 
 #projects {
+    width: 100%;
     background-color: #7395ae;
     display: flex;
 }
@@ -123,7 +130,33 @@ header {
     padding: 0.5rem;
 }
 
-#projects .project-list {
+.project-list {
     width: 80%;
     padding: 3%;
+}
+
+.project-list ul {
+    list-style: none;
+}
+
+.project-list li:before { 
+    content: "";
+    height: 0;
+    width: 0;
+    border-color: transparent #000;
+    border-style: solid;
+    border-width: 0.4em 0 0.4em 0.5em;
+    position: relative;
+    display: block;    
+    left: -1em;
+    top: 1em;    
+}
+
+li.rotate:before {
+    transform: rotate(90deg)
+}
+
+
+.project div {
+    display: none;
 }
