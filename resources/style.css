@@ -70,7 +70,6 @@ header {
 /* About section */
 
 #about {
-    position: relative;
     background-color: #938e94;
 }
 
@@ -86,6 +85,7 @@ header {
 
 #about article {
     width: 60%;
+    padding: 3%;
 }
 
 #about .section-title {
@@ -93,11 +93,37 @@ header {
     height: 100%;
     padding-bottom: 20%;
     position: relative;
-    background: linear-gradient(45deg, rgba(255,255,255,0) 50%, rgba(93,92,97,1) 50%);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 50%, rgba(93, 92, 97, 1) 50%);
 }
 
 #about h2 {
     position: absolute;
     right: 0;
     padding: 0.5rem;
+}
+
+/* Projects section */
+
+#projects {
+    background-color: #7395ae;
+    display: flex;
+}
+
+#projects .section-title {
+    width: 20%;
+    height: 100%;
+    padding-bottom: 20%;
+    position: relative;
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0) 50%, rgba(85, 122, 149, 1) 50%);
+}
+
+#projects h2 {
+    position: absolute;
+    left: 0;
+    padding: 0.5rem;
+}
+
+#projects .project-list {
+    width: 80%;
+    padding: 3%;
 }
