@@ -30,6 +30,12 @@ h3 {
     font-size: 1.25rem;
 }
 
+.corner h2 {
+    position: absolute;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+}
+
 /* Navbar styles */
 
 nav {
@@ -103,9 +109,9 @@ header {
 }
 
 #about h2 {
-    position: absolute;
     right: 0;
-    padding: 0.5rem;
+    padding: 5% 5% 5% 30%;
+    text-align: right;
 }
 
 /* Projects section */
@@ -125,9 +131,8 @@ header {
 }
 
 #projects h2 {
-    position: absolute;
     left: 0;
-    padding: 0.5rem;
+    padding: 5% 30% 5% 5%;
 }
 
 .project-list {
@@ -159,4 +164,41 @@ li.rotate:before {
 
 .project div {
     display: none;
+}
+
+/* Skills section */
+
+#skills .section-title {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+#skills h2 {
+    padding: 1%;
+}
+
+.skill-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-list li {
+    margin: 1%;
+}
+
+.skill-list img {
+    width: 4rem;
+}
+
+/* Contacts section */
+
+#contact .section-title {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+
+#contact h2 {
+    padding: 1%;
 }
